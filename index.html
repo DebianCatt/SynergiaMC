@@ -13,6 +13,11 @@
       animation: fadeIn 1s ease-in-out forwards;
     }
 
+    #cardpages {
+        opacity: 0;
+        animation: fadeIn 1.5s ease-in-out forwards;
+    }
+
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -68,7 +73,42 @@
       </div>
     </div>
 
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <div class="container" id="cardpages">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="box">
+                            <img src="/images/guilds.png" alt="Image 1" class="img-fluid">
+                            <h3>GUILDS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="box">
+                            <img src="/images/crafting.png" alt="Image 2" class="img-fluid">
+                            <h3>CRAFTING</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="box">
+                            <img src="/images/events.png" alt="Image 3" class="img-fluid" style="height: auto;"/>
+                            <h3>EVENTS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>
