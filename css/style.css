@@ -1,0 +1,9 @@
+body{
+    background-image: url("../images/mc-bg-1.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.navbar-nav a{
+    color:white;
+}
