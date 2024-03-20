@@ -4,6 +4,25 @@ body{
 
 }
 
+h1 {
+    font-family: 'ScifiAdv';
+    color: rgb(248, 212, 5);
+}
+
 .navbar-nav a{
     color:white;
+    font-family: 'Vcr';
+}
+
+
+/***** FONTS *****/
+
+@font-face {
+    font-family: 'ScifiAdv';
+    src: url(../fonts/ScifiAdv.otf);
+}
+
+@font-face {
+    font-family: 'Vcr';
+    src: url(../fonts/Vcr.ttf);
 }
