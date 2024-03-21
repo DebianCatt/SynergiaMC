@@ -10,9 +10,17 @@ h1 {
 }
 
 
-.navbar-nav a{
+.navbar-nav a, h4{
     color:white;
     font-family: 'Vcr';
+}
+
+
+.card {
+    font-family: 'Vcr';
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 
